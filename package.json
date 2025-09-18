@@ -1,13 +1,17 @@
 {
   "dependencies": {
+    "chai": "^6.0.1",
     "express": "^5.1.0",
+    "mocha": "^11.7.2",
+    "supertest": "^7.1.4",
     "yarn": "^1.22.22"
   },
   "name": "github-actions-repo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha tests/*.js"
   },
   "repository": {
     "type": "git",
